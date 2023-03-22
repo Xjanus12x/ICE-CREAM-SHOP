@@ -1,0 +1,65 @@
+
+
+.nav {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../../assets/ice_cream-bg.jfif);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 50vh;
+  min-height: 50dvh;
+  display: grid;
+}
+
+.nav__menu {
+  padding: 1rem;
+  align-self: flex-start;
+}
+.nav__menu > li {
+  cursor: pointer;
+}
+.hamburger__menu {
+  filter: brightness(0) invert(1);
+}
+.title {
+  align-self: center top;
+  justify-self: center;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  max-width: 17ch;
+  margin-inline: 0.5rem;
+}
+.title::before {
+  content: open-quote;
+}
+.title::after {
+  content: close-quote;
+}
+
+.secondary-navigation {
+  display: none;
+  background-color: var(--blue-600);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 30%;
+
+}
+
+.menu-open {
+  display: block;
+  animation: slideFromRightToLeft 250ms ease-in-out forwards;
+  padding: 1rem;
+}
+
+@keyframes slideFromRightToLeft {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}

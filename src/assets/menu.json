@@ -1,0 +1,29 @@
+[
+  {
+    "type": "Vanilla",
+    "price": {
+      "small": 85,
+      "mediumn": 150,
+      "large": 220
+    },
+    "imagePath": "../../assets/vanilla-icecream.jpg"
+  },
+  {
+    "type": "Chocolate",
+    "price": {
+      "small": 85,
+      "mediumn": 150,
+      "large": 220
+    },
+    "imagePath": "../../assets/chocolate-icecream.jfif"
+  },
+  {
+    "type": "Cookies and Cream",
+    "price": {
+      "small": 85,
+      "mediumn": 150,
+      "large": 220
+    },
+    "imagePath": "../../assets/cookies-and-cream-ice-cream.jpg"
+  }
+]

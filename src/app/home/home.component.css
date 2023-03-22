@@ -1,0 +1,10 @@
+.ice-cream-container {
+    text-align: center;
+}
+
+.ice-cream-container > img {
+  aspect-ratio: 1 /1;
+  min-width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
