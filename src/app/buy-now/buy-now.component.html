@@ -22,5 +22,5 @@
     <select id="add-ons" [(ngModel)]="addOns" name="add-ons">
         <option value="" *ngFor="let addOns of addOnsOptions" [value]="addOns.name">{{addOns.name}}</option>
     </select>
-    <button class="button" type="button" (click)="onSubmit()">Add to Cart</button>
+    <button class="button" type="button" (click)="onSubmit()">Order</button>
 </form>
