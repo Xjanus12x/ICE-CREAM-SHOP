@@ -3,8 +3,7 @@
         <li (click)="goToRoute('home')">
             <img class="logo" src="../../assets/ice_cream_logo.png" alt="" />
         </li>
-        <li class="hamburger__menu" (click)="toggleMenu()"><img
-                src="../../assets/hamburger_menu.png" alt="" />
+        <li class="hamburger__menu" (click)="toggleMenu()"><img src="../../assets/hamburger_menu.png" alt="" />
         </li>
     </ul>
     <h1 class="title">Scoops of happiness in every cone</h1>
@@ -13,4 +12,5 @@
 <ul class="secondary-navigation" [ngClass]="{'menu-open': isOpen}  ">
     <li><img (click)="toggleMenu()" src="../../assets/exit_icon.png" alt=""></li>
     <li><a routerLink="/order-list">Order List</a></li>
+    <li><a routerLink="/cart-list">Cart List</a></li>
 </ul>

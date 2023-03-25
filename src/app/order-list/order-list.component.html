@@ -1,1 +1,12 @@
-<p>order-list works!</p>
+<section class="cart-container">
+    <header>
+        <h2>Order List</h2>
+    </header>
+    <ul class="cart-list" *ngFor="let buyNowList of buyNowList">
+        <li>Name: {{buyNowList.name}}</li>
+        <li>Type: {{buyNowList.iceCreamType}}</li>
+        <li>Size: {{buyNowList.size}}</li>
+        <li>Quantity: {{buyNowList.quantity}}</li>
+        <li>addOns: {{buyNowList.addOns}}</li>
+    </ul>
+</section>

@@ -1,0 +1,16 @@
+/* .container{
+    background-color: var(--blue-600);
+    text-align: center;
+    z-index: -1;
+}
+.container > img{
+    margin: auto;
+} */
+
+.container {
+  background-color: var(--blue-600);
+  text-align: center;
+}
+.container > img {
+  margin-inline: auto;
+}

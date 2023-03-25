@@ -1,0 +1,12 @@
+<section class="cart-container">
+    <header>
+        <h2>Cart Items</h2>
+    </header>
+    <ul class="cart-list" *ngFor="let cartItem of cartList">
+        <li>Name: {{cartItem.name}}</li>
+        <li>Type: {{cartItem.iceCreamType}}</li>
+        <li>Size: {{cartItem.size}}</li>
+        <li>Quantity: {{cartItem.quantity}}</li>
+        <li>addOns: {{cartItem.addOns}}</li>
+    </ul>
+</section>

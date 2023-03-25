@@ -1,0 +1,27 @@
+header {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 20% 1fr;
+  gap: 0.5rem;
+  padding: 1rem;
+  text-align: center;
+  outline: 3px solid var(--blue-600);
+  border-radius: 20px;
+  margin-block: 1rem;
+}
+label {
+  font-weight: bold;
+}
+
+.button {
+  grid-column: 1 / -1;
+  justify-self: center;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  background-color: var(--blue-600);
+  border: transparent;
+}
